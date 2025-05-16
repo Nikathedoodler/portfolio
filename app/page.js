@@ -7,6 +7,7 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
+import Header1 from "./components/Header1";
 
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -36,7 +37,7 @@ export default function Home() {
   return (
     <div>
       <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
-      <Header isDarkMode={isDarkMode} />
+      <Header1 isDarkMode={isDarkMode} />
       <About isDarkMode={isDarkMode} />
       <Services isDarkMode={isDarkMode} />
       <Work isDarkMode={isDarkMode} />

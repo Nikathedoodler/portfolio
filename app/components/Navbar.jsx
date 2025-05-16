@@ -46,28 +46,28 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
               : "bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent"
           } `}
         >
-          <li>
+          <li className="hover:scale-110 hover:font-bold transition-transform">
             <a href="#top" className="font-Ovo">
               Home
             </a>
           </li>
-          <li>
-            <a href="#about" className="font-Ovo">
+          <li className="hover:scale-110 hover:font-bold transition-transform">
+            <a href="#about" className="font-Ovo hover:scale-110">
               About me
             </a>
           </li>
-          <li>
-            <a href="#services" className="font-Ovo">
+          <li className="hover:scale-110 hover:font-bold transition-transform">
+            <a href="#services" className="font-Ovo hover:scale-110">
               Services
             </a>
           </li>
-          <li>
-            <a href="#work" className="font-Ovo">
+          <li className="hover:scale-110 hover:font-bold transition-transform">
+            <a href="#work" className="font-Ovo hover:scale-110">
               My Work
             </a>
           </li>
-          <li>
-            <a href="#contact" className="font-Ovo">
+          <li className="hover:scale-110 hover:font-bold transition-transform">
+            <a href="#contact" className="font-Ovo hover:scale-110">
               Contac me
             </a>
           </li>
