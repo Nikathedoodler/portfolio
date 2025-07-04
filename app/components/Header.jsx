@@ -12,7 +12,7 @@ const Header = () => {
                 transition={{ duration: 0.8, type: 'string', stiffness: 100 }}
             >
                 <Image
-                    src={assets.profile_img}
+                    src={assets.Profile}
                     alt=""
                     className="rounded-full w-32"
                 />
