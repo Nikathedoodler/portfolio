@@ -54,11 +54,11 @@ const About = ({ isDarkMode }) => {
                     transition={{ duration: 0.6, delay: 0.8 }}
                 >
                     <p className="mb-10 max-w-2xl font-Ovo">
-                        I am an experienced Frontend Developer with over a
-                        decade of professional expertise in the field.
-                        Throughout my career, I have had the privilege of
-                        collaborating with prestigious organizations,
-                        contributing to their success and growth.
+                        I am an experienced Frontend Developer with over a 5
+                        years of professional expertise in the field. Throughout
+                        my career, I have had the privilege of collaborating
+                        with prestigious organizations, contributing to their
+                        success and growth.
                     </p>
                     <motion.ul
                         className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl"
