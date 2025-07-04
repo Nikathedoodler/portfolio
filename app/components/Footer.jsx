@@ -19,13 +19,31 @@ const Footer = ({ isDarkMode }) => {
         <p>2025 Nika Kakulia. All rights reserved</p>
         <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
           <li>
-            <a target="_blank" href=""></a>GitHub
+            <a
+              target="_blank"
+              href="https://github.com/Nikathedoodler"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
           </li>
           <li>
-            <a target="_blank" href=""></a>LinkedIn
+            <a
+              target="_blank"
+              href="https://linkedin.com/in/nkakulia/"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
           </li>
           <li>
-            <a target="_blank" href=""></a>Twitter
+            <a
+              target="_blank"
+              href="https://x.com/nikathedoodler"
+              rel="noopener noreferrer"
+            >
+              X
+            </a>
           </li>
         </ul>
       </div>
